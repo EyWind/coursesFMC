@@ -8,7 +8,7 @@ This project was made following template provided by web course. It was in order
 
 ### Dependencies
 
-* jQuery, scss, slick, formValidate, gulp.
+* jQuery, scss, slick, validation plagin, gulp.
 
 ## Note
 

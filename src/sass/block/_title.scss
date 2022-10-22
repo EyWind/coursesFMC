@@ -1,0 +1,13 @@
+.title {
+   font-size: 30px;
+   font-weight: 900;
+   line-height: 30px;
+   color: #393939;
+   margin: 0;
+   &_fz42 {
+      font-weight: 900;
+      font-size: 41px;
+      line-height: 48px;
+      color: $main-color;
+   }
+}

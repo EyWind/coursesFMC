@@ -1,0 +1,23 @@
+.button {
+   display: block;
+   width: 240px;
+   height: 60px;
+   border-radius: 5px;
+   border: none;
+   background-color: #00c2f0;
+   color: $main-color;
+   margin-top: 30px;   
+   text-transform: uppercase;
+   transition: .2s all;
+   &:hover {
+      box-shadow: 1px 1px 5px black;
+      transform: scale(1.01);
+   }
+   &:active {
+      box-shadow: 3px 3px 10px $main-color;
+      transform: scale(.98);
+   }
+   &_submit {
+      margin: 25px auto 0 auto;
+   }
+}

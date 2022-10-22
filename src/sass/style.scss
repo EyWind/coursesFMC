@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   outline-color: rgba(26, 155, 214, 0.6);
+}
+
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+@import 'block/contacts';
+@import 'block/text';
+@import 'block/title';
+@import 'block/pormo';
+@import 'block/button';
+@import 'block/prengi';
+@import 'block/solutions';
+@import 'block/benefits';
+@import 'block/variants';
+@import 'block/start';
+@import 'block/footer';
+@import 'block/overlay';
+@import 'block/media';

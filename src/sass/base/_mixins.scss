@@ -1,0 +1,12 @@
+@mixin before_square {
+   &::before {
+      content: '';
+      position: absolute;
+      width: 167px;
+      height: 167px;
+      background-color: rgba($color: #00c2f0, $alpha: .4);
+      z-index: -1;
+      right: -38px;
+      top: -38px;
+   }
+}

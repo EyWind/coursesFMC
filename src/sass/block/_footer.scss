@@ -1,0 +1,46 @@
+.footer {
+   padding: 49px 0 40px 0;
+   background-color: #0082a1;
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 377px 263px 117px 111px;
+      justify-content: space-between;
+   }
+   img {
+      margin-top: 20px;
+      width: 177px;
+      height: 60px;
+   }
+   &__descr {
+      margin-top: 20px;
+      color: $main-color;
+      font-weight: 300;
+   }
+   &__subtitle {
+      line-height: 30px;
+   }
+   &__link {
+      list-style: none;
+      a {
+         color: $main-color;
+         text-decoration: none;
+         font-size: 14px;
+         font-weight: 300;
+         &:hover {
+            color: #00c2f0;
+         }
+      }
+   }
+   hr {
+      margin-top: 44px;
+      border-top: none;
+      border-color: #4da8bd;
+   }
+   &__rights {
+      margin-top: 36px;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: center;
+      color: $main-color;
+   }
+}

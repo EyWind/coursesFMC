@@ -1,0 +1,35 @@
+.contacts {
+   padding: 19px 0 0 0;
+   &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, auto));
+      grid-auto-rows: minmax(50px, auto);
+      column-gap: 33px;
+      row-gap: 13px;
+   }
+   &__item {
+      display: grid;
+      grid-template-columns: 28px auto;
+      column-gap: 11px;
+   }
+   &__flag {
+      width: 28px;
+      height: 21px;
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+   }
+   &__body {
+      &-tel {
+         a {
+            text-decoration: none;
+            color: $sub-color;
+            &:hover {
+               color: $sub-color;
+            }
+         }
+      }
+   }
+}
